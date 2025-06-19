@@ -39,8 +39,9 @@ This is a simple **Arduino-based smart parking system** that simulates how autom
 
 ```cpp
 int Slot = 4; // Total parking slots
+```
 
-
+## System Overview
           +-------------------+
 IR1 ---> |   Arduino Uno      | <--- IR2
          |                   |
@@ -51,9 +52,11 @@ IR1 ---> |   Arduino Uno      | <--- IR2
 
 
 ## 📌 Notes
-✅ Check the I2C Address: Most LCDs use 0x27, but some may use 0x3F. Use an I2C scanner sketch to confirm.
 
-🔌 Power the Servo Properly: The servo motor may require external 5V power for smooth operation; powering directly from Arduino may cause jitter.
+- ✅ **Check the I2C Address:** Most LCDs use `0x27`, but some may use `0x3F`. Use an I2C scanner sketch to confirm.
 
-⚠️ Double-Check Wiring: Incorrect connections can lead to erratic behavior or no response at all.
+- 🔌 **Power the Servo Properly:** The servo motor may require external 5V power for smooth operation. Powering directly from Arduino may cause jitter or failure.
+
+- ⚠️ **Double-Check Wiring:** Incorrect connections can lead to erratic behavior or no response at all.
+
 
