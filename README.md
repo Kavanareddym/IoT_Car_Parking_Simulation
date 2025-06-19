@@ -42,13 +42,13 @@ int Slot = 4; // Total parking slots
 ```
 
 ## System Overview
-          +-------------------+
-IR1 ---> |   Arduino Uno      | <--- IR2
+         +-------------------+
+IR1 ---> |   Arduino Uno     | <--- IR2
          |                   |
-         |     Servo Motor   |
-         |         ↓         |
-         |     LCD Display   |
-          +-------------------+
+         |    Servo Motor    |
+         |        ↓          |
+         |   LCD Display     |
+         +-------------------+
 
 
 ## 📌 Notes
