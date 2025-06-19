@@ -41,7 +41,9 @@ This is a simple **Arduino-based smart parking system** that simulates how autom
 int Slot = 4; // Total parking slots
 ```
 
-## System Overview
+## 📊 System Overview
+
+```text
          +-------------------+
 IR1 ---> |   Arduino Uno     | <--- IR2
          |                   |
@@ -49,7 +51,7 @@ IR1 ---> |   Arduino Uno     | <--- IR2
          |        ↓          |
          |   LCD Display     |
          +-------------------+
-
+```
 
 ## 📌 Notes
 
